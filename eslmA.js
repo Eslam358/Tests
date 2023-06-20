@@ -1,7 +1,6 @@
 let title =document. querySelector(".Questions  h2")
 let inbut =document. querySelector(".Questions .submit")
-let fom =document. querySelector(".Questions form")
-let num_qu =document. querySelector(".num_qu span");
+let num_qu =document. querySelector(".num_qu .count");
 let Category =document. querySelector(".Category span");
 let Quest_check =document. querySelector(".Questions");
 
@@ -45,7 +44,7 @@ function start() {
         num_qu.innerHTML= r.length;
         check__color_span(check__false_true, r);
         creat__answers(r, Q);
-        time(r.length)
+        // time(r.length)
     });
 }
 // _____________
@@ -91,11 +90,6 @@ function time(t) {
 
 // *****************************
 
-// console.log(span_1[2].parentElement.children[0].checked);  
-
-
-// *****************************
-// *****************************
 // *************** function_(1)
 function creat__answers(k, typeQu) {
     let Q = ["answer_1", "answer_2", "answer_3", "answer_4", "right_answer"]
@@ -173,20 +167,20 @@ function good_bad(n, K) {
 
 
 
-function creat__answer(k) {
-    let Q = ["answer_1", "answer_2", "answer_3", "answer_4", "right_answer"]
-      title.innerHTML="";
-        let Div_title = document.createElement("div");
-        let Div_title_text =document.createTextNode(k[i]["title"]) 
-        Div_title.appendChild(Div_title_text);
-        title.appendChild(Div_title);
-        span_1.forEach(el => {
-          el.innerHTML="";
-            let po = Math.floor(Math.random()* Q.length)
-            let span_Q = document.createElement("span");
-            let span_Q_tex = document.createTextNode(k[i][Q[po]]);
-            span_Q.appendChild(span_Q_tex);
-            el.appendChild(span_Q)
-            Q.splice(po,1);
-        });
-  };
+// function creat__answer(k) {
+//     let Q = ["answer_1", "answer_2", "answer_3", "answer_4", "right_answer"]
+//       title.innerHTML="";
+//         let Div_title = document.createElement("div");
+//         let Div_title_text =document.createTextNode(k[i]["title"]) 
+//         Div_title.appendChild(Div_title_text);
+//         title.appendChild(Div_title);
+//         span_1.forEach(el => {
+//           el.innerHTML="";
+//             let po = Math.floor(Math.random()* Q.length)
+//             let span_Q = document.createElement("span");
+//             let span_Q_tex = document.createTextNode(k[i][Q[po]]);
+//             span_Q.appendChild(span_Q_tex);
+//             el.appendChild(span_Q)
+//             Q.splice(po,1);
+//         });
+//   };
