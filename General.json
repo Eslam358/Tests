@@ -1,0 +1,82 @@
+ [
+    {
+      "title": "What is the capital of Australia?",
+      "answer_1": "Sydney",
+      "answer_2": "Melbourne",
+      "answer_3": "Canberra",
+      "answer_4": "Brisbane",
+      "right_answer": "Canberra"
+    },
+    {
+      "title": "What is the largest planet in our solar system?",
+      "answer_1": "Earth",
+      "answer_2": "Venus",
+      "answer_3": "Jupiter",
+      "answer_4": "Saturn",
+      "right_answer": "Jupiter"
+    },
+    {
+      "title": "Who painted the famous work 'The Starry Night'?",
+      "answer_1": "Edvard Munch",
+      "answer_2": "Vincent van Gogh",
+      "answer_3": "Claude Monet",
+      "answer_4": "Pablo Picasso",
+      "right_answer": "Vincent van Gogh"
+    },
+    {
+      "title": "What is the currency of Japan?",
+      "answer_1": "Dollar",
+      "answer_2": "Euro",
+      "answer_3": "Pound",
+      "answer_4": "Yen",
+      "right_answer": "Yen"
+    },
+    {
+      "title": "Who is the author of 'The Great Gatsby'?",
+      "answer_1": "Ernest Hemingway",
+      "answer_2": "F. Scott Fitzgerald",
+      "answer_3": "William Faulkner",
+      "answer_4": "John Steinbeck",
+      "right_answer": "F. Scott Fitzgerald"
+    },
+    {
+      "title": "What is the highest mountain in Africa?",
+      "answer_1": "Mount Kilimanjaro",
+      "answer_2": "Mount Everest",
+      "answer_3": "Mount McKinley",
+      "answer_4": "Mount Elbrus",
+      "right_answer": "Mount Kilimanjaro"
+    },
+    {
+      "title": "Who wrote the novel 'To Kill a Mockingbird'?",
+      "answer_1": "Harper Lee",
+      "answer_2": "Truman Capote",
+      "answer_3": "J.D. Salinger",
+      "answer_4": "Maya Angelou",
+      "right_answer": "Harper Lee"
+    },
+    {
+      "title": "What is the largest ocean in the world?",
+      "answer_1": "Atlantic Ocean",
+      "answer_2": "Indian Ocean",
+      "answer_3": "Arctic Ocean",
+      "answer_4": "Pacific Ocean",
+      "right_answer": "Pacific Ocean"
+    },
+    {
+      "title": "Who was the first president of the United States?",
+      "answer_1": "John Adams",
+      "answer_2": "Thomas Jefferson",
+      "answer_3": "George Washington",
+      "answer_4": "Benjamin Franklin",
+      "right_answer": "George Washington"
+    },
+    {
+      "title": "What is the largest country in South America?",
+      "answer_1": "Argentina",
+      "answer_2": "Brazil",
+      "answer_3": "Peru",
+      "answer_4": "Chile",
+      "right_answer": "Brazil"
+    }
+  ]
